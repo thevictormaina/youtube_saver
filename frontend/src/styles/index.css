@@ -2,7 +2,8 @@
 @import "./colors.module.css";
 
 html,
-body {
+body, div#root {
+  height: 100%;
   min-height: 100%;
 }
 

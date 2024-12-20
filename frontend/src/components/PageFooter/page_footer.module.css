@@ -1,0 +1,25 @@
+@value colors: "../../styles/colors.module.css";
+@value primary, muted from colors;
+
+.footer {
+  color: muted;
+  justify-self: end;
+  /*margin-top: auto;*/
+  text-align: center;
+  padding: 1rem;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+
+  span, a {
+    font-weight: 600;
+    background: var(
+      --Primary,
+      linear-gradient(99deg, #8e44ad 0%, #c0392b 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

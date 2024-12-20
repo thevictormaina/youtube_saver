@@ -1,23 +1,17 @@
 import { Outlet } from "react-router";
 import PageBackground from "../../components/PageBackground";
-//import styles from "./main_layout.module.css"
-import { subtitle } from "../../styles/fonts.module.css"
+import PageFooter from "../../components/PageFooter"
+import PageHeader from "../../components/PageHeader";
+import { outer, inner } from "./main_layout.module.css";
 
-export default function MainLayout(){
-  return <>
-    <Header />
+export default function MainLayout() {
+  return <div className={outer}>
+  <div className={inner}>
+    <PageHeader />
     <Outlet />
+  </div>
+    <PageFooter />
     <PageBackground />
-  </>
+  </div>
 }
 
-function Header(){
-  return <header>
-    <Logo />
-    <h2 className={subtitle}>Simple downloader for your YouTube videos.</h2>
-  </header>
-}
-
-function Logo(){
-  return null
-}
