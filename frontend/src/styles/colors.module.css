@@ -1,0 +1,23 @@
+@value primary: linear-gradient(99deg, #8E44AD 0%, #C0392B 100%);
+@value secondary: #7F439C;
+@value secondary-2: #C0392B;
+@value secondary-light: #EBD7F5;
+@value secondary-light-2: #F6D8D5;
+@value light-1: #F1EDF2;
+@value light-2: #D3CDD5;
+@value white: #FFFFFF;
+@value dark: #18141A;
+@value muted: #615566;
+
+:root {
+  --primary: linear-gradient(99deg, #8e44ad 0%, #c0392b 100%);
+  --secondary: #7f439c;
+  --secondary-2: #c0392b;
+  --secondary-light: #ebd7f5;
+  --secondary-light-2: #f6d8d5;
+  --light-1: #f1edf2;
+  --light-2: #d3cdd5;
+  --white: #ffffff;
+  --dark: #18141a;
+  --muted: #615566;
+}
