@@ -1,15 +1,18 @@
-.outer{
+.outer {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1028px;
 }
 
 .inner {
   flex: 1 0 100%;
   display: flex;
+  gap: 3rem;
   flex-direction: column;
   justify-content: center;
 }

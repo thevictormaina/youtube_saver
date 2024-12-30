@@ -1,0 +1,44 @@
+.fieldset {
+  position: relative;
+  border: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  flex: 1 1 auto;
+
+  h3 {
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+}
+
+.options_wrapper {
+  overflow: clip;
+  position: relative;
+  display: flex;
+  background-color: var(--current-secondary-color, var(--light-1));
+  border-radius: 2rem;
+}
+
+.background {
+  position: absolute;
+  /*inset: 0;*/
+  z-index: 1;
+  background-color: var(--current-color, var(--light-2));
+  /*background-color: red;*/
+  color: var(--white);
+  border-radius: 40rem;
+  box-shadow: 0 0 0 3px white;
+}
+
+@media only screen and (max-width: 960px) {
+  .options_wrapper {
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  .background {
+    border-radius: 0rem;
+  }
+}

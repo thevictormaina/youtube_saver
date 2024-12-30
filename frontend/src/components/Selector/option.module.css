@@ -1,0 +1,23 @@
+.option {
+  composes: small from "../../styles/fonts.module.css";
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+  color: var(--current-color);
+  cursor: pointer;
+  transition: 150ms;
+  z-index: 30;
+  flex: 1 1 auto;
+}
+
+.active {
+  color: var(--white);
+}
+
+.inactive {
+  color: var(current-color, black);
+}

@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem 2rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .form {
+    flex-direction: column;
+  }
+}
+
+.video {
+  --current-color: var(--secondary);
+  --current-secondary-color: var(--secondary-light);
+}
+
+.audio {
+  --current-color: var(--secondary-2);
+  --current-secondary-color: var(--secondary-light-2);
+}

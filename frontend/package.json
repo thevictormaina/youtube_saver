@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently 'vite' 'tcm -w ./src/'",
+    "dev": "concurrently 'vite' 'tcm -w src'",
     "check:up-to-date-types": "tcm --listDifferent .",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "concurrently": "^9.1.0",
+    "motion": "^11.15.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router": "^7.0.2",

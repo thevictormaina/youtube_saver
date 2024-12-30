@@ -1,8 +1,10 @@
 @import "./fonts.module.css";
 @import "./colors.module.css";
+@import "./button.module.css";
 
 html,
-body, div#root {
+body,
+div#root {
   height: 100%;
   min-height: 100%;
 }

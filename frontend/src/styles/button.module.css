@@ -1,0 +1,20 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  display: flex;
+  background: none;
+  background-color: unset;
+}
+
+.primary {
+  display: flex;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 40rem;
+  background: var(--primary);
+  color: var(--white);
+}
